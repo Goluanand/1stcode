@@ -1,0 +1,9 @@
+i=ord('A')
+j=ord("a")
+alpha=[]
+for k in range(26):# for loop is working
+    alpha.append(chr(i))
+    alpha.append(chr(j))
+    i=i+1
+    j=j+1
+print(alpha)
